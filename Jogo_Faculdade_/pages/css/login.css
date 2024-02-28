@@ -1,0 +1,67 @@
+
+body{
+    background-image: url(../imagens/login/florestalogin.png);
+    background-repeat:no-repeat;
+    background-size: cover; 
+}
+
+
+.login_floresta{
+    
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+}
+
+.login-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login_header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+
+.login_header h1{
+    color: #32CD32;
+    text-shadow: 2px 2px 0 #4e2401, -2px -2px 0 #000;
+    font-size: 1.9em;
+}
+
+.login_input{
+    border: 2px solid #333;
+    border-radius: 8px ;
+    color: black;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;  
+    outline: none ;
+    padding: 15px;
+    width: 100%;
+
+}
+
+.login_button{
+    background-color: #b88a33;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+}
+
+.login_button:disabled{
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+
+}
